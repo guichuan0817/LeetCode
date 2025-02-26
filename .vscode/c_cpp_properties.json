@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux", // 配置名称
+            "includePath": [
+                "${workspaceFolder}/**", // 包含当前工作区的所有文件
+                "/usr/include", // 系统头文件路径
+                "/usr/local/include" // 本地安装的头文件路径
+            ],
+            "defines": [], // 预定义宏
+            "compilerPath": "/usr/bin/g++", // 编译器路径
+            "cStandard": "c11", // C语言标准
+            "cppStandard": "c++17", // C++语言标准
+            "intelliSenseMode": "gcc-x64", // IntelliSense模式
+            "configurationProvider": "ms-vscode.cmake-tools" // 如果使用CMake，可以添加此项
+        }
+    ],
+    "version": 4
+}
