@@ -22,7 +22,7 @@ public:
          // 前序位置，每个节点的值都是一个子集
         res.push_back(track);
 
-        for(int i=start; i<nums.size(); i++){
+        for(int i = start; i<nums.size(); i++){
             // 做选择
             track.push_back(nums[i]);
             // 通过 start 参数控制树枝的遍历，避免产生重复的子集
